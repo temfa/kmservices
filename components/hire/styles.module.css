@@ -1,0 +1,31 @@
+.hireContainer {
+    width: 85%;
+    max-width: 1230px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px auto;
+    background-color: #F1F1F5;
+    padding: 47px 84px;
+    border-radius: 20px;
+}
+
+.hireContainer h2 {
+    width: 531px;
+    font-size: 25px;
+    line-height: 55px;
+    font-weight: 700;
+    color: #29272E;
+}
+
+.hireContainer button {
+    border-radius: 5px;
+    background-color: #29272E;
+    color: white;
+    padding: 14px 25px;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: -0.5%;
+    cursor: pointer;
+}

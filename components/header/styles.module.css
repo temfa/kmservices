@@ -1,0 +1,35 @@
+.headerContainer {
+    background-color: white;
+    box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.10);
+}
+
+.headerWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0px auto;
+}
+
+.headerNav {
+    display: flex;
+    gap: 50px;
+}
+
+.headerNav a {
+    font-size: 16px;
+    color: #4A5568;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+.headerContainer button {
+    background-color: #24963d;
+    border: none;
+    padding: 14px 25px;
+    border-radius: 8px;
+    color: white;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 600;
+}

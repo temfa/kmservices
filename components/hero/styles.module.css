@@ -54,5 +54,8 @@
     border-radius: 5px;
     background-color: #24963d;
     border: 0px;
+}
 
+.heroWrapper img {
+    border-radius: 16px;
 }

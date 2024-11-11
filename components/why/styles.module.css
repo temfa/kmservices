@@ -1,0 +1,80 @@
+.whyContainer {
+    padding: 110px 0px;
+    background-color: #F4F4F4
+}
+
+.whyWrapper {
+    width: 85%;
+    max-width: 1230px;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    row-gap: 32px;
+    column-gap: 32px;
+}
+
+.whyHeading {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.whyHeading h2 {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 67px;
+    color: #131313;
+}
+
+.whyHeading p {
+    font-size: 13px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #3E3E3E;
+}
+
+.whySingle {
+    background-color: white;
+    padding: 32px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+}
+
+.whySingle:hover {
+    background-color: #24963d;
+}
+
+.whySingle h1 {
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #24963d;
+}
+
+.whySingle div {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.whySingle div h2 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 29px;
+    color: #5C5C5C;
+}
+
+.whySingle div p {
+    font-size: 14px;
+    line-height: 23px;
+    color: #787878;
+    font-weight: 400;
+}
+
+.whySingle:hover div h2,
+.whySingle:hover div p,
+.whySingle:hover h1 {
+    color: white;
+}

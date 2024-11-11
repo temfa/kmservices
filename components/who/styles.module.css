@@ -1,0 +1,32 @@
+.whoContainer {
+    padding: 120px 0px;
+    width: 85%;
+    max-width: 1230px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+.whoLeft {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.whoLeft h2 {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 85px;
+}
+
+.whoLeft p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.whoContainer img {
+    border-radius: 8px;
+}

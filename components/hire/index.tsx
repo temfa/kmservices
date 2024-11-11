@@ -4,8 +4,8 @@ import styles from "./styles.module.css";
 const Hire = () => {
   return (
     <div className={styles.hireContainer}>
-      <h2>Get Reliable Professionals for Every Job Around the House!</h2>
-      <button>Hire Professionals</button>
+      <h2>Finden Sie zuverlässige Fachkräfte für jede Aufgabe rund ums Haus!</h2>
+      <button>Fachkräfte beauftragen</button>
     </div>
   );
 };

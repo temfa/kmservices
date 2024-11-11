@@ -29,5 +29,10 @@
     color: white;
     text-align: center;
     font-size: 18px;
+}
 
+@media screen and (max-width:500px) {
+    .footerContainer div {
+        flex-direction: column;
+    }
 }

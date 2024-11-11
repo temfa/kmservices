@@ -29,3 +29,17 @@
     letter-spacing: -0.5%;
     cursor: pointer;
 }
+
+@media screen and (max-width:500px) {
+    .hireContainer {
+        width: 95%;
+        max-width: 100%;
+        padding: 24px;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .hireContainer h2 {
+        width: 100%;
+    }
+}

@@ -9,11 +9,11 @@ const Hero = () => {
         <div className={styles.heroContent}>
           <div className={styles.heroText}>
             <h2>
-              <span>Great Care</span> for Your Home Comes from <span>Great Service Teams!</span>
+              <span>Große Sorgfalt</span> für Ihr Zuhause kommt von <span>Großartigen Serviceteams!</span>
             </h2>
-            <p>We’re passionate about creating safe and comfortable spaces for you and your family.</p>
+            <p>Wir sind leidenschaftlich daran interessiert, sichere und komfortable Räume für Sie und Ihre Familie zu schaffen.</p>
           </div>
-          <button>Let&lsquo;s Get Started</button>
+          <button>Lass uns anfangen</button>
         </div>
         <Image src="/images/hero.jpg" width={614} height={546} alt="Hero" />
       </div>

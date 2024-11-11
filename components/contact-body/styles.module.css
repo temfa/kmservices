@@ -20,7 +20,7 @@
     display: flex;
     flex-direction: column;
     gap: 8px;
-    width: 60%;
+    width: 70%;
 }
 
 .contactHeader h2 {
@@ -79,4 +79,25 @@
 
 .contactBody img {
     border-radius: 8px;
+}
+
+@media screen and (max-width:500px) {
+    .contactBody {
+        width: 95%;
+        max-width: 100%;
+        flex-direction: column;
+    }
+
+    .contactForm,
+    .contactBody img {
+        width: 100%;
+    }
+
+    .contactForm {
+        padding: 20px;
+    }
+
+    .contactHeader {
+        width: 95%;
+    }
 }

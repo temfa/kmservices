@@ -30,3 +30,15 @@
 .whoContainer img {
     border-radius: 8px;
 }
+
+@media screen and (max-width:500px) {
+    .whoContainer {
+        width: 95%;
+        max-width: 100%;
+        flex-direction: column;
+    }
+
+    .whoContainer img {
+        width: 100%
+    }
+}

@@ -59,3 +59,17 @@
 .heroWrapper img {
     border-radius: 16px;
 }
+
+@media screen and (max-width:500px) {
+    .heroWrapper {
+        flex-direction: column;
+        gap: 20px;
+        width: 95%;
+        max-width: 100%;
+    }
+
+    .heroWrapper img,
+    .heroContent {
+        width: 100%;
+    }
+}

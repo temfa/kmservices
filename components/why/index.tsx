@@ -7,10 +7,10 @@ const Why = () => {
     <div className={styles.whyContainer}>
       <div className={styles.whyWrapper}>
         <div className={styles.whyHeading}>
-          <h2>Why Choose Us</h2>
+          <h2>Warum uns wählen</h2>
           <p>
-            Discover why we&apos;re the trusted choice for reliable and high-quality handyman services. Our commitment to excellence ensures your satisfaction every step of the
-            way.
+            Entdecken Sie, warum wir die vertrauenswürdige Wahl für zuverlässige und hochwertige Handwerksdienstleistungen sind. Unser Engagement für Exzellenz sorgt dafür, dass
+            Sie bei jedem Schritt zufrieden sind.
           </p>
         </div>
         {whyChooseUsReasons?.map((item, index) => {

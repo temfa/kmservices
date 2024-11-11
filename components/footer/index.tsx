@@ -6,10 +6,10 @@ const Footer = () => {
   return (
     <div className={styles.footerContainer}>
       <div>
-        <Link href="/">Home</Link>
-        <Link href="/about">About</Link>
-        <Link href="/services">Services</Link>
-        <Link href="/contact">Contact</Link>
+        <Link href="/">Startseite</Link>
+        <Link href="/about">Über uns</Link>
+        <Link href="/services">Dienstleistungen</Link>
+        <Link href="/contact">Kontaktieren Sie uns</Link>
       </div>
       <p>Copyright ©2024</p>
     </div>

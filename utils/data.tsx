@@ -40,12 +40,12 @@ export const services = [
   {
     title: "Lackierarbeiten",
     text: "Wir bieten professionelle Lackierarbeiten für Türen, Fenster und Möbel, um langlebige und ansprechende Oberflächen zu schaffen, die das Aussehen und die Lebensdauer Ihrer Holzelemente verbessern.",
-    image: "/images/board.jpg",
+    image: "/images/laminate.jpg",
   },
   {
     title: "Laminat verlegen",
     text: "Unser Laminatverlegeservice bietet Ihnen eine kostengünstige und stilvolle Bodenbelagsoption. Wir übernehmen jeden Schritt des Prozesses für ein glattes und professionelles Finish.",
-    image: "/images/laminate.jpg",
+    image: "/images/board.jpg",
   },
   {
     title: "Entrümpelung",

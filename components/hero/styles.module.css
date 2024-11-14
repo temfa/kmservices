@@ -72,4 +72,9 @@
     .heroContent {
         width: 100%;
     }
+
+    .heroWrapper img {
+        object-fit: contain;
+        object-position: center center;
+    }
 }

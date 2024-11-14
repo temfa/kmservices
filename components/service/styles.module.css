@@ -18,9 +18,12 @@
     .container {
         display: flex;
         flex-direction: column;
+        row-gap: unset;
     }
 
     .serviceSingle img {
         width: 100%;
+        object-fit: contain;
+        object-position: center center;
     }
 }

@@ -5,6 +5,13 @@ __metadata:
   version: 6
   cacheKey: 8
 
+"@emailjs/browser@npm:^4.4.1":
+  version: 4.4.1
+  resolution: "@emailjs/browser@npm:4.4.1"
+  checksum: 7c33dae1062c7f3106c38c290643c1096505762dea19a71d89515890fb204f5ae3e2954eec3d4c4de1aa6ea586e956d88cde2e5b9a2e4075ea849de9735b6d16
+  languageName: node
+  linkType: hard
+
 "@emnapi/runtime@npm:^1.2.0":
   version: 1.3.1
   resolution: "@emnapi/runtime@npm:1.3.1"
@@ -1592,6 +1599,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "german@workspace:."
   dependencies:
+    "@emailjs/browser": ^4.4.1
     "@types/node": ^20
     "@types/react": ^18
     "@types/react-dom": ^18

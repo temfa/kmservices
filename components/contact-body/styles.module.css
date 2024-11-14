@@ -93,6 +93,11 @@
         width: 100%;
     }
 
+    .contactBody img {
+        object-fit: contain;
+        object-position: center center;
+    }
+
     .contactForm {
         padding: 20px;
     }

@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import styles from "./styles.module.css";
 import Image from "next/image";
 import emailjs from "@emailjs/browser";
+import Link from "next/link";
 
 const ContactBody = () => {
   const [email, setEmail] = useState("");
@@ -15,15 +16,17 @@ const ContactBody = () => {
         <div className={styles.contactHeader}>
           <h2>Wir sind hier, um Ihnen zu helfen!</h2>
           <p>Ihr Feedback ist uns wichtig, und wir sind bestrebt, Ihnen außergewöhnlichen Support zu bieten.</p>
+          <p>Adresse: Aussigerstr.6 29633 Munster</p>
+          <p>
+            Telefon: <Link href="tel:01627302574">01627302574</Link>
+          </p>
         </div>
         <form
           className={styles.formBody}
           onSubmit={async (e) => {
             e.preventDefault();
             setLoading(true);
-            const serviceID = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID;
-            const templateID = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID;
-            const userID = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY;
+
             try {
               const emailParams = {
                 name,
@@ -31,7 +34,7 @@ const ContactBody = () => {
                 message,
               };
 
-              const res = await emailjs.send(serviceID as string, templateID as string, emailParams, userID);
+              const res = await emailjs.send("service_yrziodf", "template_x0rk8yo", emailParams, "tVGmLYjL4HxgG0J6Q");
 
               if (res.status === 200) {
                 alert("Nachricht erfolgreich gesendet!");

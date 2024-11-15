@@ -39,6 +39,9 @@ const ContactBody = () => {
               if (res.status === 200) {
                 alert("Nachricht erfolgreich gesendet!");
                 setLoading(false);
+                setEmail("");
+                setName("");
+                setMessage("");
               }
             } catch (error) {
               console.log(error);
